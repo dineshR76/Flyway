@@ -1,0 +1,1 @@
+insert into REGISTER_USERS values(1,"dineshR7","dinesh", "reddy");

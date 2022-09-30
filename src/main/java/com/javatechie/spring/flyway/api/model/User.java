@@ -9,14 +9,11 @@ import lombok.Data;
 
 @Data
 @Entity
-@Table(name = "REGISTRATION_USERS")
+@Table(name = "REGISTER_USERS")
 public class User {
 	@Id
-	@GeneratedValue
 	private int id;
 	private String username;
 	private String first_name;
 	private String last_name;
-	private String email;
-	private String mobile;
 }
